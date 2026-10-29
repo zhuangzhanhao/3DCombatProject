@@ -20,6 +20,7 @@ public class CharacterMove : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (CharacterAttackCache.Instance.IsAttacking1()) return;
         UpdateRotation();
         UpdatePosition();
     }

@@ -22,8 +22,3 @@ public class CharacterMoveCache : SingleInstance<CharacterMoveCache>
     }
 }
 
-public static class EventName
-{
-    public const string CharacterMoveCacheUpdate = "CharacterMoveCacheUpdate";
-}
-
